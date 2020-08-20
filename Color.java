@@ -18,7 +18,7 @@ public class Color {
 	  driver.findElement(By.xpath("//*[@id='bigbutton']")).click();
 	  // Storing the value in RGB format
 	  String color = driver.findElement(By.xpath("//*[@id='toolbar']")).getCssValue("color");
-	  System.out.print(color);
+	  System.out.print("Color :" +color);
 
   }
 
